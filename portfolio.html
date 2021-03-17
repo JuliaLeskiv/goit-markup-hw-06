@@ -244,9 +244,17 @@
                 <a href="./index.html" class="logo-footer"><span class="logo-web">Web</span><span
                         class="logo-studio-footer">Studio</span></a>
                 <address class="footer-contacts" id="contacts">
-                    <a href="#" class="contacts-location">г. Киев, пр-т Леси Украинки, 26</a>
-                    <a href="mailto:info@example.com" class="contacts">info@example.com</a>
-                    <a href="tell:+380991111111" class="contacts">+38 099 111 11 11</a>
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            <a href="#" class="contacts-location">г. Киев, пр-т Леси Украинки, 26</a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="mailto:info@example.com" class="contacts">info@example.com</a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="tell:+380991111111" class="contacts">+38 099 111 11 11</a>
+                        </li>
+                    </ul>
                 </address>
             </div>
             <div class="footer-social">
@@ -282,6 +290,18 @@
                     </li>
                 </ul>
             </div>
+            <form class="footer-form">
+                <h2 class="footer-title">Подпишитесь на рассылку</h2>
+            
+                <label class="footer-form-label">
+                    <input class="form-input" type="email" name="mail" placeholder="E-mail" />
+                </label>
+                <button class="btn subscribe-btn" type="submit">
+                    Подписаться<svg class="subscribe-icon" width="24" height="24">
+                        <use href="./img/symbol-defs.svg#icon-isend" />
+                    </svg>
+                </button>
+            </form>
         </div>
     </footer>
 </body>
